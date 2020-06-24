@@ -216,7 +216,7 @@ nav a:focus {
 /*home hero*/
 
 .home-hero {
-    background-image: url("C:/Users/SSIM STUDENT/Desktop/Website/Project1/bg1.jpeg");
+    background-image: url("Project1/bg1.jpeg");
     padding: 10em 0;
     background-position: center;
     background-size: cover;
@@ -269,7 +269,7 @@ nav a:focus {
         font-size: 2.5rem;
     }
     .home-about {
-        background-image: url("C:/Users/SSIM STUDENT/Desktop/Website/Bg/sample1.jpg");
+        background-image: url("Bg/sample1.jpg");
         background-repeat: no-repeat;
         padding-bottom: 10em;
     }
