@@ -156,9 +156,9 @@
     }
     
     .button-dark {
-        color: white;
-        border-color: black;
-        background: black;
+        color: brown;
+        border-color: brown;
+        background: white;
     }
     
     .button-dark:hover,
@@ -200,6 +200,7 @@
     nav a:focus {
         background: brown;
         color: white;
+        border-radius: 25px;
     }
     
     @media (min-width: 60rem) {
@@ -213,7 +214,7 @@
     /*home hero*/
     
     .home-hero {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Project1/bigbg.PNG");
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Project1/bigbg.png");
         padding: 10em 0;
         background-position: center;
         background-size: cover;
