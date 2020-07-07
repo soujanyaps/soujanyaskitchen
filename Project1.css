@@ -1,4 +1,4 @@
-    @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
+    @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700,900");
     * {
         box-sizing: border-box;
         transition: all ease-in-out 250ms;
@@ -111,7 +111,9 @@
     /*buttons*/
     
     .button {
+        background-color: var(--background-color);
         display: inline-block;
+        position: relative;
         font-size: 1.15rem;
         text-decoration: none;
         text-transform: uppercase;
@@ -119,6 +121,8 @@
         border-style: solid;
         padding: .5em 1.75em;
         border-radius: 35px;
+        transition: 0.6s all ease;
+        --background-color: white;
     }
     
     @media (min-width: 60rem) {
@@ -131,7 +135,7 @@
         color: black;
         background: white;
         border-color: white;
-        font-weight: 510;
+        font-weight: 500;
     }
     
     .button-small {
@@ -159,13 +163,36 @@
         color: brown;
         border-color: brown;
         background: white;
+        font-weight: 500;
+        transition: color 300ms ease;
+        z-index: 1;
     }
     
-    .button-dark:hover,
-    .button-dark:focus {
-        background: brown;
-        border-color: brown;
+    .button.button-dark::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: brown;
+        border-radius: 35px;
+        transition: transform 250ms ease-in;
+        transform: scaleX(0);
+    }
+    
+    .button.button-dark:hover::before,
+    .button.button-dark:focus::before {
+        transform: scaleX(1);
+    }
+    /*.button.button-dark {}*/
+    
+    .button.button-dark:hover,
+    .button.button-dark:focus {
         color: white;
+        background-color: white;
+        border-color: white;
     }
     /*header*/
     
@@ -200,7 +227,7 @@
     nav a:focus {
         background: brown;
         color: white;
-        border-radius: 25px;
+        border-radius: 20px;
     }
     
     @media (min-width: 60rem) {
@@ -342,8 +369,9 @@
     /*footer*/
     
     footer {
-        background: #232323;
-        color: #FFF;
+        background: brown;
+        color: white;
         text-align: left;
         padding: 30px;
+        opacity: 0.95;
     }
