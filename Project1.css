@@ -44,7 +44,7 @@ img {
 }
 
 
-/*column system*/
+/*column system
 
 [class^=col-] {
     float: left;
@@ -57,11 +57,7 @@ img {
 
 [class^=col-]:last-child {
     padding-right: 0;
-}
-
-.col-3 {
-    width: 50%;
-}
+}*/
 
 .col-1 {
     width: 16.6666%;
