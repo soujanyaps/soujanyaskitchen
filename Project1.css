@@ -309,24 +309,17 @@ footer {
     min-height: 15vh;
 }
 
-@media (min-width: 37rem) {
+@media (min-width: 992px) {
     footer {
         margin-top: 45%;
         min-height: 15vh;
+        text-size-adjust: 2%;
     }
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 600px) {
     footer {
         margin-top: 5%;
         min-height: 15vh;
-    }
-}
-
-@media (min-width: 135rem) {
-    footer {
-        margin-top: 2%;
-        min-height: 5vh;
-        text-size-adjust: 2%;
     }
 }
