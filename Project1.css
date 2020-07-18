@@ -326,6 +326,6 @@ footer {
 @media (min-width: 135rem) {
     footer {
         margin-top: 2%;
-        min-height: 10vh;
+        min-height: 5vh;
     }
 }
