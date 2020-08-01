@@ -401,7 +401,7 @@ nav a:focus {
 
 @media (max-width:450px) {
     .home-hero {
-        height: 90vh;
+        height: 100vh;
         background-attachment: fixed;
     }
 }
