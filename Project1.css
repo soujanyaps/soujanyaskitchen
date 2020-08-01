@@ -79,18 +79,18 @@ p:last-of-type {
 }
 
 
-/*
+
 @media (max-width:450px) {
     .title {
         margin-top: 35%;
-        font-size: 35px;
+        font-size: 32px;
     }
     .title span {
         margin: 30px;
-        font-size: 27px;
+        font-size: 25px;
     }
 }
-*/
+
 
 @media (min-width:451px) and (max-width:540px) {
     .title {
