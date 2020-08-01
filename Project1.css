@@ -78,8 +78,6 @@ p:last-of-type {
     color: white;
 }
 
-
-
 @media (max-width:450px) {
     .title {
         margin-top: 35%;
@@ -90,7 +88,6 @@ p:last-of-type {
         font-size: 25px;
     }
 }
-
 
 @media (min-width:451px) and (max-width:540px) {
     .title {
@@ -169,10 +166,9 @@ p:last-of-type {
 
 @media (max-width:450px) {
     .button {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
-
 
 @media (min-width:451px) and (max-width:540px) {
     .button {
@@ -292,10 +288,9 @@ nav a:focus {
 
 @media (max-width:450px) {
     nav a {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
-
 
 @media (min-width:451px) and (max-width:540px) {
     nav a {
@@ -342,12 +337,11 @@ nav a:focus {
 @media (max-width:450px) {
     .logo {
         width: 150px;
-        margin-left: 20px;
+        margin-left: 17px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 }
-
 
 @media (min-width:451px) and (max-width:540px) {
     .logo {
@@ -405,9 +399,9 @@ nav a:focus {
     background-size: cover;
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
     .home-hero {
-        height: 100vh;
+        height: 90vh;
         background-attachment: fixed;
     }
 }
@@ -472,7 +466,7 @@ nav a:focus {
     margin: 1em;
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
     .port-item {
         margin-bottom: -4px;
     }
