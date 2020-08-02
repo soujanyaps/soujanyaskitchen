@@ -45,9 +45,6 @@ img {
     scroll-snap-align: start;
 }*/
 
-
-/*typography*/
-
 h1 {
     font-weight: 300;
     font-size: 1.7rem;
@@ -422,18 +419,21 @@ nav a:focus {
 
 @media (min-width:769px) and (max-width:1024px) {
     .home-hero {
+        height: 100vh;
         background-attachment: fixed;
     }
 }
 
 @media (min-width:1025px) and (max-width:1200px) {
     .home-hero {
+        height: 100vh;
         background-attachment: fixed;
     }
 }
 
 @media (min-width:1201px) {
     .home-hero {
+        height: 100vh;
         background-attachment: fixed;
     }
 }
