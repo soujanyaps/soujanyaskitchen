@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway|Pacifico:100,200,300,400,500,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway|Dancing+Script:100,200,300,400,500,600,700,900");
 * {
     box-sizing: border-box;
     transition: all ease-in-out 300ms;
@@ -154,7 +154,8 @@ nav a:focus {
 
 h2 {
     text-align: center;
-    font-family: 'Pacifico', 'Raleway', sans-serif;
+    font-family: 'Dancing Script', 'Raleway', sans-serif;
+    font-weight: 200;
 }
 
 @media (max-width:450px) {
@@ -221,6 +222,18 @@ img {
     font-weight: 400;
     position: relative;
     text-align: left;
+}
+
+@media (max-width:450px) {
+    .recipe-details {
+        padding: 1em;
+    }
+}
+
+@media (min-width:451px) and (max-width:540px) {
+    .recipe-details {
+        padding: 1em;
+    }
 }
 
 
