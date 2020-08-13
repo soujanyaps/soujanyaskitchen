@@ -18,7 +18,8 @@ body {
     text-align: center;
 }
 
-h2 {
+
+/*h2 {
     text-align: center;
     margin-bottom: -4%;
     color: brown;
@@ -26,9 +27,9 @@ h2 {
 }
 
 
-/*
+
 @media (max-width:450px) {}
-*/
+
 
 @media (max-width:450px) {
     h2 {
@@ -42,7 +43,7 @@ h2 {
     }
 }
 
-
+/*
 /*
 @media (min-width:541px) and (max-width:768px) {}
 
@@ -56,47 +57,10 @@ img {
     width: 100%;
 }
 
-.logo {
-    width: 80px;
-    margin-left: -90%;
-    margin-top: 5px;
-}
-
-@media (max-width:450px) {
-    .logo {
-        margin-top: 5%;
-        margin-left: 2%;
-    }
-}
-
-@media (min-width:451px) and (max-width:540px) {
-    .logo {
-        margin-top: 5%;
-        margin-left: 2%;
-    }
-}
-
-
-/*nav*/
-
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    float: right;
-    margin-top: -5%;
-}
-
-@media (max-width:450px) {
-    nav ul {
-        margin-right: 13%;
-    }
-}
-
-@media (min-width:451px) and (max-width:540px) {
-    nav ul {
-        margin-right: 18%;
-    }
 }
 
 nav li {
@@ -105,7 +69,7 @@ nav li {
 }
 
 nav a {
-    font-weight: 520;
+    font-weight: 620;
     text-decoration: none;
     text-transform: uppercase;
     font-size: .82rem;
@@ -118,6 +82,112 @@ nav a:focus {
     background: brown;
     color: white;
     border-radius: 20px;
+}
+
+@media (max-width:450px) {
+    nav a {
+        font-size: 11px;
+    }
+}
+
+@media (min-width:451px) and (max-width:540px) {
+    nav a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:541px) and (max-width:768px) {
+    nav a {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    nav a {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    nav a {
+        font-size: 13px;
+    }
+    nav {
+        float: right;
+    }
+}
+
+@media (min-width:1021px) {
+    nav a {
+        font-size: 13px;
+    }
+    nav {
+        float: right;
+    }
+}
+
+
+/*logo*/
+
+.logo {
+    width: 10em;
+    border-radius: 5em;
+    margin-left: 45%;
+}
+
+@media (max-width:450px) {
+    .logo {
+        width: 150px;
+        margin-left: 17px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:451px) and (max-width:540px) {
+    .logo {
+        width: 150px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:541px) and (max-width:768px) {
+    .logo {
+        width: 160px;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .logo {
+        width: 160px;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .logo {
+        width: 180px;
+        border-radius: 150px;
+        margin-left: 300px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:1021px) {
+    .logo {
+        width: 180px;
+        border-radius: 150px;
+        margin-left: 300px;
+        margin-top: 10px;
+    }
 }
 
 
