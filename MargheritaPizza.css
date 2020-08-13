@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway|Pacifico:100,200,300,400,500,600,700,900");
 * {
     box-sizing: border-box;
     transition: all ease-in-out 300ms;
@@ -154,7 +154,7 @@ nav a:focus {
 
 h2 {
     text-align: center;
-    font-family: French Script MT, 'Raleway', sans-serif;
+    font-family: 'Pacifico', 'Raleway', sans-serif;
 }
 
 @media (max-width:450px) {
