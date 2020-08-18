@@ -76,13 +76,13 @@ p:last-of-type {
 
 @media (max-width:450px) {
     .title {
-        margin-top: 30%;
+        margin-top: 20%;
         font-size: 55px;
     }
     .title span {
         margin-bottom: -20px;
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 
@@ -350,7 +350,7 @@ nav a:focus {
 
 .logo {
     width: 10em;
-    border-radius: 5em;
+    border-radius: 200px;
     margin-left: 45%;
 }
 
@@ -393,7 +393,6 @@ nav a:focus {
 @media (min-width:1025px) and (max-width:1200px) {
     .logo {
         width: 180px;
-        border-radius: 150px;
         margin-left: 300px;
         margin-top: 60px;
         margin-bottom: 20px;
@@ -403,7 +402,6 @@ nav a:focus {
 @media (min-width:1021px) {
     .logo {
         width: 180px;
-        border-radius: 150px;
         margin-left: 300px;
         margin-top: 10px;
     }
