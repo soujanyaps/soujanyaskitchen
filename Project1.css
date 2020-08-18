@@ -76,8 +76,8 @@ p:last-of-type {
 
 @media (max-width:450px) {
     .title {
-        margin-top: 20%;
-        font-size: 55px;
+        margin-top: 30%;
+        font-size: 35px;
     }
     .title span {
         margin-bottom: -20px;
